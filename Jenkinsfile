@@ -10,7 +10,7 @@ pipeline {
 
         stage('GIT') {
             steps {
-                git branch: 'master',
+                git branch: 'main',
                     url: 'https://github.com/kawtherhnaini14-creator/jenkins.git'
                 // if your repo is private, add:
                 //    credentialsId: 'jenkins-example-github-pat'
